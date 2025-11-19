@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  transition: background-color 0.5s ease-in-out;
+}
+
+#flip {
+  padding: 20px 40px;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#flip:hover {
+  background-color: #3e8e41;
+}
+
+#flip:active {
+  transform: scale(0.9);
+}
